@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CarCompanion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Car Companion</string>
+    <string name="nav_header_subtitle">OBD-II Vehicle Diagnostics</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu labels -->
+    <string name="menu_home">Dashboard</string>
+    <string name="menu_gallery">Connect Device</string>
+    <string name="menu_slideshow">Settings</string>
+    
+    <!-- OBD-II related strings -->
+    <string name="connect_to_obd">Connect to OBD-II</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="select_device">Select a device</string>
+    <string name="no_paired_devices">No paired devices found</string>
+    <string name="scanning">Scanning for devices…</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="connection_successful">Connected successfully</string>
+    <string name="bluetooth_not_supported">Bluetooth is not supported on this device</string>
+    <string name="bluetooth_not_enabled">Bluetooth is required. Please enable Bluetooth.</string>
+    
+    <!-- Dashboard gauge strings -->
+    <string name="rpm">RPM</string>
+    <string name="speed">Speed</string>
+    <string name="engine_temp">Engine Temp</string>
+    <string name="tire_pressure">Tire Pressure</string>
+    <string name="map_sensor">MAP</string>
+    <string name="not_connected">Not connected</string>
+    <string name="connected">Connected</string>
+    <string name="location_permission_denied">Location permissions denied!</string>
+</resources>

@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--com.tomtom.sdk.maps.display.ui.MapView
+        android:id="@+id/tomtom_map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/-->
+    <FrameLayout
+        android:id="@+id/map_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="top">
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:hint="Search location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:padding="8dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_last_locations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last 5"/>
+
+            <Button
+                android:id="@+id/btn_popular_locations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top 3"/>
+
+            <Button
+                android:id="@+id/btn_gas_station"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gas Station"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
